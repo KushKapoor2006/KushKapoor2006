@@ -16,7 +16,7 @@ I research hardware-aware ML optimizations: cycle-accurate simulators, verificat
 - Research, benchmarking, reproducible results
 
 ## Contact
-- LinkedIn: https://www.linkedin.com/in/kush-kapoor-361858289
 - Email: *kushkapoor.kk1234@gmail.com*
+- Phone: +91 7042918473
 
 > Open to internships, research collaborations, and project mentorship.
