@@ -1,4 +1,4 @@
-### Hi there, I'm Kush Kapoor! 👋
+### Hi there, I'm Kush Kapoor!
 
 I am an **Undergraduate Researcher** passionate about bridging the gap between algorithmic demand and hardware constraints. My work focuses on **Computer Architecture**, **Hardware-Software Co-Design**, and **Domain-Specific Architectures (DSAs)** for ML and Serverless computing.
 
@@ -6,7 +6,7 @@ I specialize in building end-to-end systems—from architecting RTL in **SystemV
 
 ---
 
-### 🔬 Research Interests
+### Research Interests
 
 * **Computer Architecture:** Manycore systems, Cache coherence, Custom memory hierarchies.
 * **Domain-Specific Architectures:** Hardware acceleration for Transformers (LLMs), GCNs, and Sparse workloads.
@@ -15,21 +15,21 @@ I specialize in building end-to-end systems—from architecting RTL in **SystemV
 
 ---
 
-### 🛠️ Featured Research Projects
+### Featured Research Projects
 
-#### ⚡ Hardware-Software Co-Design & Manycore Systems
+#### Hardware-Software Co-Design & Manycore Systems
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **[HB-TaskQueue-CoSim](https://github.com/KushKapoor2006/HB-TaskQueue-CoSim)** | **Hardware Task Queue for HammerBlade Manycore**<br>• Engineered a hardware FIFO task queue to eliminate leader-core dispatch bottlenecks, achieving **4.2× speedup**.<br>• Built a rigorous verification pipeline (C-driver + Python oracle) uncovering **3,164 functional mismatches** prior to synthesis. | `SystemVerilog` `C++` `Python` `Verilator` |
 | **[serverless-shim-hdu](https://github.com/KushKapoor2006/serverless-shim-hdu)** | **Hardware Dispatch Unit for Serverless**<br>• Architected an HDU to offload authorization/scheduling, achieving **7.41× speedup** over SW with **0.02µs** latency.<br>• Synthesized to a minimal **425 cells** (Yosys) with a custom cycle-accurate simulation model. | `SystemVerilog` `Yosys` `Python` `Sim` |
 
-#### 🧠 AI Accelerators & Memory Systems
+#### AI Accelerators & Memory Systems
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **[Flexagon-DSA](https://github.com/KushKapoor2006/Flexagon-DSA)** | **Memory-Prefetch Extension for NN Accelerators**<br>• Designed "FlexPipe," a synthesizable memory controller with pointer-walking prefetch DMA.<br>• Achieved **1.33× (VGG-16)** and **1.10× (DistilBERT)** speedup by boosting DRAM utilization to **95%**. | `SystemVerilog` `C` `Yosys` `DRAMSim` |
 | **[SpAtten](https://github.com/KushKapoor2006/SpAtten)** | **Speculative Lookahead for Transformers**<br>• Implemented a cycle-aware simulator and RTL for speculative token pruning in Attention layers.<br>• Demonstrated **69.4% cycle reduction** with a **100% lookahead finish rate** for sparse Transformers. | `Verilog` `Python` `Monte-Carlo` |
 
-#### 🌐 Graph Processing & PIM
+#### Graph Processing & PIM
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **[island_gcn_simulator](https://github.com/KushKapoor2006/island_gcn_simulator)** | **Island-Based GCN Accelerator**<br>• Prototyped adaptive PE merging to mitigate `c_max` granularity bottlenecks in Graph Convolutional Networks.<br>• Demonstrated **1.55× speedup** and **2× DRAM traffic reduction** via event-driven simulation. | `Python` `SystemVerilog` `GCNs` |
@@ -37,7 +37,7 @@ I specialize in building end-to-end systems—from architecting RTL in **SystemV
 
 ---
 
-### 💻 Technical Stack
+### Technical Stack
 
 * **HDL & Synthesis:** SystemVerilog, Verilog, Yosys, Vivado, Quartus.
 * **Simulation & Verification:** Verilator, Gem5, ModelSim, GTKWave, Python (cocotb/custom harnesses).
