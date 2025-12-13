@@ -2,7 +2,7 @@
 
 I am an **Undergraduate Researcher** passionate about bridging the gap between algorithmic demand and hardware constraints. My work focuses on **Computer Architecture**, **Hardware-Software Co-Design**, and **Domain-Specific Architectures (DSAs)** for ML and Serverless computing.
 
-I specialize in building end-to-end systems—from architecting RTL in **SystemVerilog** to writing **C-based drivers** and developing rigorous **Python verification pipelines**.
+I specialize in building end-to-end systems: from architecting RTL in **SystemVerilog** to writing **C-based drivers** and developing rigorous **Python verification pipelines**.
 
 ---
 
