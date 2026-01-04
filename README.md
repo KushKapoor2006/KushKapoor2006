@@ -20,7 +20,7 @@ I specialize in building end-to-end systems: from architecting RTL in **SystemVe
 #### Hardware-Software Co-Design & Manycore Systems
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **[HB-TaskQueue-CoSim](https://github.com/KushKapoor2006/HB-TaskQueue-CoSim)** | **Hardware Task Queue for HammerBlade Manycore**<br>• Engineered a hardware FIFO task queue to eliminate leader-core dispatch bottlenecks, achieving **4.2× speedup**.<br>• Built a rigorous verification pipeline (C-driver + Python oracle) uncovering **3,164 functional mismatches** prior to synthesis. | `SystemVerilog` `C++` `Python` `Verilator` |
+| **[HB-TaskQueue-CoSim](https://github.com/KushKapoor2006/HB-TaskQueue-CoSim)** | **Hardware Task Queue for HammerBlade Manycore**<br>• Engineered a hardware FIFO task queue to eliminate leader-core dispatch bottlenecks, achieving **13.9× speedup**.<br>• Built a rigorous verification pipeline (C-driver + Python oracle) uncovering **3,164 functional mismatches** prior to synthesis. | `SystemVerilog` `C++` `Python` `Verilator` |
 | **[serverless-shim-hdu](https://github.com/KushKapoor2006/serverless-shim-hdu)** | **Hardware Dispatch Unit for Serverless**<br>• Architected an HDU to offload authorization/scheduling, achieving **7.41× speedup** over SW with **0.02µs** latency.<br>• Synthesized to a minimal **425 cells** (Yosys) with a custom cycle-accurate simulation model. | `SystemVerilog` `Yosys` `Python` `Sim` |
 
 #### AI Accelerators & Memory Systems
